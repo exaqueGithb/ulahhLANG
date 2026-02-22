@@ -16,8 +16,8 @@ function run() {
 }
 
 function interpret(code) {
-  // 임시: 테스트용
-  if (code.includes("혀엉")) {
+  // 임시: 테스트용이고 자시고 이게 뭐야
+  if (code.includes("Hello World!")) {
     return {
       stdout: "Hello, world!",
       stderr: ""
